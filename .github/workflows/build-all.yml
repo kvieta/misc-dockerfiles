@@ -9,7 +9,7 @@ on:
     - cron: "28 15 * * *"
 
 jobs:
-  build-push-php-7.4-fpm-nice:
+  build-push-php-74-fpm-nice:
     runs-on: ubuntu-latest
     steps:
       -

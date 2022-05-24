@@ -3,6 +3,8 @@ FROM php:7.4-fpm-alpine
 # System dependencies
 RUN set -eux; \
 	\
+	apk update;\
+	apk upgrade --no-cache;\
 	apk add --no-cache \
 		git \
 		imagemagick \
